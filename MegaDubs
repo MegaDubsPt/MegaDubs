@@ -1,8 +1,1190 @@
-megadubs-site/
-│
-├── index.html
-├── style.css
-├── script.js
-│
-└── assets/
-    └── logo.png
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="MegaDubs — Estúdio português de dobragem, localização, tradução e produção de áudio.">
+
+    <meta name="keywords"
+          content="MegaDubs, dobragem, dublagem, localização, tradução, PT-PT, vozes, animação">
+
+    <meta name="author" content="MegaDubs">
+
+    <title>MegaDubs — Damos voz às histórias</title>
+
+    <link rel="icon" type="image/png" href="assets/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================================================
+     LOADING
+========================================================= -->
+
+<div id="loader">
+    <div class="loader-logo">
+        <img src="assets/logo.png" alt="MegaDubs">
+    </div>
+
+    <div class="loader-bar">
+        <span></span>
+    </div>
+</div>
+
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+
+<header class="header" id="header">
+
+    <div class="container nav-container">
+
+        <a href="#inicio" class="brand">
+            <img src="assets/logo.png" alt="MegaDubs">
+        </a>
+
+        <nav class="nav" id="nav">
+
+            <a href="#inicio" class="nav-link active">Início</a>
+            <a href="#sobre" class="nav-link">Sobre nós</a>
+            <a href="#servicos" class="nav-link">Serviços</a>
+            <a href="#projetos" class="nav-link">Projetos</a>
+            <a href="#equipa" class="nav-link">Equipa</a>
+            <a href="#contacto" class="nav-link nav-contact">Contacto</a>
+
+        </nav>
+
+        <button class="menu-toggle"
+                id="menuToggle"
+                aria-label="Abrir menu"
+                aria-expanded="false">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </div>
+
+</header>
+
+
+<main>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="hero" id="inicio">
+
+    <div class="hero-background">
+
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="glow glow-three"></div>
+
+        <div class="particles"></div>
+
+    </div>
+
+    <div class="container hero-container">
+
+        <div class="hero-content reveal">
+
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Estúdio português de dobragem
+            </div>
+
+            <h1>
+                <span>Damos voz</span>
+                às tuas histórias.
+            </h1>
+
+            <p class="hero-description">
+                A MegaDubs transforma personagens, mundos e histórias
+                em experiências faladas em português.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projetos" class="btn btn-primary">
+                    Ver projetos
+                    <span>→</span>
+                </a>
+
+                <a href="#contacto" class="btn btn-secondary">
+                    Fala connosco
+                </a>
+
+            </div>
+
+            <div class="hero-stats">
+
+                <div class="stat">
+                    <strong>PT-PT</strong>
+                    <span>Localização</span>
+                </div>
+
+                <div class="stat">
+                    <strong>100%</strong>
+                    <span>Dedicação</span>
+                </div>
+
+                <div class="stat">
+                    <strong>∞</strong>
+                    <span>Histórias</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-visual reveal">
+
+            <div class="visual-ring ring-one"></div>
+            <div class="visual-ring ring-two"></div>
+
+            <div class="hero-card">
+
+                <div class="crown">♛</div>
+
+                <div class="microphone">
+                    <div class="mic-head"></div>
+                    <div class="mic-body"></div>
+                    <div class="mic-base"></div>
+                </div>
+
+                <div class="sound-wave">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <p>MEGADUBS</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="scroll-indicator">
+        <span></span>
+        Scroll
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     SOBRE
+========================================================= -->
+
+<section class="section about" id="sobre">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="eyebrow">QUEM SOMOS</span>
+
+            <h2>
+                Mais do que dobragem.<br>
+                <span>Uma paixão por dar voz.</span>
+            </h2>
+
+            <p>
+                A MegaDubs nasceu da paixão pela dobragem, interpretação,
+                animação e pelas histórias que nos fazem sentir.
+            </p>
+
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="about-text reveal">
+
+                <p>
+                    Somos uma equipa portuguesa dedicada à produção de
+                    conteúdo dobrado e localizado para português europeu.
+                </p>
+
+                <p>
+                    Reunimos atores de voz, tradutores, adaptadores,
+                    editores, técnicos de áudio e criadores para transformar
+                    cada projeto numa experiência completa.
+                </p>
+
+                <p>
+                    O nosso objetivo é simples:
+                    <strong>fazer com que cada personagem soe como se
+                    sempre tivesse falado português.</strong>
+                </p>
+
+                <a href="#servicos" class="text-link">
+                    Descobrir os nossos serviços →
+                </a>
+
+            </div>
+
+
+            <div class="about-cards reveal">
+
+                <div class="about-card">
+                    <div class="about-icon">🎙</div>
+                    <h3>Voz</h3>
+                    <p>
+                        Interpretação e casting de vozes para personagens
+                        únicas e memoráveis.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">✦</div>
+                    <h3>Qualidade</h3>
+                    <p>
+                        Atenção ao detalhe em cada etapa da produção.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">🌍</div>
+                    <h3>Localização</h3>
+                    <p>
+                        Conteúdo adaptado ao público português.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">♥</div>
+                    <h3>Paixão</h3>
+                    <p>
+                        Porque acreditamos que dobrar é contar histórias.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     SERVIÇOS
+========================================================= -->
+
+<section class="section services" id="servicos">
+
+    <div class="container">
+
+        <div class="section-heading center reveal">
+
+            <span class="eyebrow">O QUE FAZEMOS</span>
+
+            <h2>
+                Serviços para dar vida<br>
+                <span>a cada projeto.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <article class="service-card reveal">
+
+                <div class="service-number">01</div>
+                <div class="service-icon">🎙️</div>
+
+                <h3>Dobragem</h3>
+
+                <p>
+                    Dobragem de animações, séries, vídeos e outros
+                    conteúdos para português europeu.
+                </p>
+
+                <span class="service-arrow">↗</span>
+
+            </article>
+
+
+            <article class="service-card reveal">
+
+                <div class="service-number">02</div>
+                <div class="service-icon">✎</div>
+
+                <h3>Tradução & Adaptação</h3>
+
+                <p>
+                    Tradução e adaptação de diálogos, mantendo o significado,
+                    ritmo e personalidade do conteúdo original.
+                </p>
+
+                <span class="service-arrow">↗</span>
+
+            </article>
+
+
+            <article class="service-card reveal">
+
+                <div class="service-number">03</div>
+                <div class="service-icon">🎭</div>
+
+                <h3>Casting</h3>
+
+                <p>
+                    Seleção de vozes adequadas para cada personagem,
+                    projeto e direção artística.
+                </p>
+
+                <span class="service-arrow">↗</span>
+
+            </article>
+
+
+            <article class="service-card reveal">
+
+                <div class="service-number">04</div>
+                <div class="service-icon">🎧</div>
+
+                <h3>Áudio & Mixagem</h3>
+
+                <p>
+                    Edição, limpeza, sound design e mistura final para
+                    entregar áudio pronto para publicação.
+                </p>
+
+                <span class="service-arrow">↗</span>
+
+            </article>
+
+
+            <article class="service-card reveal">
+
+                <div class="service-number">05</div>
+                <div class="service-icon">🎬</div>
+
+                <h3>Direção de Dobragem</h3>
+
+                <p>
+                    Direção artística e acompanhamento dos atores durante
+                    todo o processo de gravação.
+                </p>
+
+                <span class="service-arrow">↗</span>
+
+            </article>
+
+
+            <article class="service-card reveal">
+
+                <div class="service-number">06</div>
+                <div class="service-icon">✨</div>
+
+                <h3>Produção</h3>
+
+                <p>
+                    Coordenação completa do projeto, desde o guião até
+                    ao master final.
+                </p>
+
+                <span class="service-arrow">↗</span>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     PROCESSO
+========================================================= -->
+
+<section class="section process">
+
+    <div class="container">
+
+        <div class="section-heading center reveal">
+
+            <span class="eyebrow">COMO TRABALHAMOS</span>
+
+            <h2>
+                Do guião à voz final.
+            </h2>
+
+        </div>
+
+
+        <div class="process-line">
+
+            <div class="process-item reveal">
+
+                <span class="process-dot">01</span>
+
+                <h3>Briefing</h3>
+
+                <p>
+                    Conhecemos o projeto e as suas necessidades.
+                </p>
+
+            </div>
+
+
+            <div class="process-item reveal">
+
+                <span class="process-dot">02</span>
+
+                <h3>Adaptação</h3>
+
+                <p>
+                    Tradução e adaptação do conteúdo.
+                </p>
+
+            </div>
+
+
+            <div class="process-item reveal">
+
+                <span class="process-dot">03</span>
+
+                <h3>Casting</h3>
+
+                <p>
+                    Encontramos as vozes certas.
+                </p>
+
+            </div>
+
+
+            <div class="process-item reveal">
+
+                <span class="process-dot">04</span>
+
+                <h3>Gravação</h3>
+
+                <p>
+                    Os atores dão vida às personagens.
+                </p>
+
+            </div>
+
+
+            <div class="process-item reveal">
+
+                <span class="process-dot">05</span>
+
+                <h3>Finalização</h3>
+
+                <p>
+                    Edição, mistura e controlo de qualidade.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     PROJETOS
+========================================================= -->
+
+<section class="section projects" id="projetos">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="eyebrow">PORTFÓLIO</span>
+
+            <h2>
+                Alguns dos mundos<br>
+                <span>que já ganharam voz.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="project-filters reveal">
+
+            <button class="filter-btn active" data-filter="all">
+                Todos
+            </button>
+
+            <button class="filter-btn" data-filter="series">
+                Séries
+            </button>
+
+            <button class="filter-btn" data-filter="animation">
+                Animação
+            </button>
+
+            <button class="filter-btn" data-filter="games">
+                Jogos
+            </button>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- PROJETO 1 -->
+
+            <article class="project-card reveal"
+                     data-category="animation">
+
+                <div class="project-image project-purple">
+
+                    <div class="project-placeholder">
+                        <span>MEGA</span>
+                        <strong>PROJECT</strong>
+                    </div>
+
+                    <div class="project-overlay">
+                        <span>Ver projeto ↗</span>
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <span class="project-type">ANIMAÇÃO</span>
+
+                        <h3>Projeto Exemplo</h3>
+                    </div>
+
+                    <span class="project-year">2025</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJETO 2 -->
+
+            <article class="project-card reveal"
+                     data-category="series">
+
+                <div class="project-image project-lilac">
+
+                    <div class="project-placeholder">
+                        <span>VOICE</span>
+                        <strong>PROJECT</strong>
+                    </div>
+
+                    <div class="project-overlay">
+                        <span>Ver projeto ↗</span>
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <span class="project-type">SÉRIE</span>
+
+                        <h3>Projeto Exemplo</h3>
+                    </div>
+
+                    <span class="project-year">2025</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJETO 3 -->
+
+            <article class="project-card reveal"
+                     data-category="games">
+
+                <div class="project-image project-dark">
+
+                    <div class="project-placeholder">
+                        <span>GAME</span>
+                        <strong>DUB</strong>
+                    </div>
+
+                    <div class="project-overlay">
+                        <span>Ver projeto ↗</span>
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <span class="project-type">JOGO</span>
+
+                        <h3>Projeto Exemplo</h3>
+                    </div>
+
+                    <span class="project-year">2025</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJETO 4 -->
+
+            <article class="project-card reveal"
+                     data-category="animation">
+
+                <div class="project-image project-gold">
+
+                    <div class="project-placeholder">
+                        <span>DUB</span>
+                        <strong>STUDIO</strong>
+                    </div>
+
+                    <div class="project-overlay">
+                        <span>Ver projeto ↗</span>
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <span class="project-type">ANIMAÇÃO</span>
+
+                        <h3>Projeto Exemplo</h3>
+                    </div>
+
+                    <span class="project-year">2025</span>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <div class="projects-footer reveal">
+
+            <a href="#contacto" class="btn btn-primary">
+                Queres trabalhar connosco?
+                <span>→</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     DEMO REEL
+========================================================= -->
+
+<section class="demo-section">
+
+    <div class="container">
+
+        <div class="demo-box reveal">
+
+            <div class="demo-decoration"></div>
+
+            <div class="demo-content">
+
+                <span class="eyebrow">DEMO REEL</span>
+
+                <h2>
+                    Ouve o que<br>
+                    <span>fazemos.</span>
+                </h2>
+
+                <p>
+                    Uma seleção de alguns dos nossos melhores trabalhos
+                    de voz, interpretação e produção sonora.
+                </p>
+
+                <button class="play-button" id="playDemo">
+
+                    <span class="play-icon">▶</span>
+
+                    <span>
+                        Reproduzir Demo Reel
+                    </span>
+
+                </button>
+
+            </div>
+
+
+            <div class="demo-visual">
+
+                <div class="equalizer">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     EQUIPA
+========================================================= -->
+
+<section class="section team" id="equipa">
+
+    <div class="container">
+
+        <div class="section-heading center reveal">
+
+            <span class="eyebrow">A NOSSA EQUIPA</span>
+
+            <h2>
+                Pessoas por trás<br>
+                <span>das vozes.</span>
+            </h2>
+
+            <p>
+                Uma equipa criativa com diferentes talentos,
+                unidos pela mesma paixão.
+            </p>
+
+        </div>
+
+
+        <div class="team-grid">
+
+
+            <article class="team-card reveal">
+
+                <div class="team-avatar">
+                    <span>🎙</span>
+                </div>
+
+                <h3>Nome da Pessoa</h3>
+
+                <span>Direção</span>
+
+            </article>
+
+
+            <article class="team-card reveal">
+
+                <div class="team-avatar">
+                    <span>🎭</span>
+                </div>
+
+                <h3>Nome da Pessoa</h3>
+
+                <span>Ator / Atriz de Voz</span>
+
+            </article>
+
+
+            <article class="team-card reveal">
+
+                <div class="team-avatar">
+                    <span>✎</span>
+                </div>
+
+                <h3>Nome da Pessoa</h3>
+
+                <span>Tradução & Adaptação</span>
+
+            </article>
+
+
+            <article class="team-card reveal">
+
+                <div class="team-avatar">
+                    <span>🎧</span>
+                </div>
+
+                <h3>Nome da Pessoa</h3>
+
+                <span>Áudio & Edição</span>
+
+            </article>
+
+
+            <article class="team-card reveal">
+
+                <div class="team-avatar">
+                    <span>✨</span>
+                </div>
+
+                <h3>Nome da Pessoa</h3>
+
+                <span>Produção</span>
+
+            </article>
+
+
+            <article class="team-card reveal">
+
+                <div class="team-avatar">
+                    <span>🎤</span>
+                </div>
+
+                <h3>Nome da Pessoa</h3>
+
+                <span>Ator / Atriz de Voz</span>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CTA
+========================================================= -->
+
+<section class="cta">
+
+    <div class="cta-glow"></div>
+
+    <div class="container cta-content reveal">
+
+        <span class="eyebrow">VAMOS CRIAR ALGO</span>
+
+        <h2>
+            A tua história<br>
+            <span>merece uma voz.</span>
+        </h2>
+
+        <p>
+            Tens um projeto que precisa de dobragem, localização
+            ou produção de áudio?
+        </p>
+
+        <a href="#contacto" class="btn btn-yellow">
+            Fala com a MegaDubs
+            <span>→</span>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CONTACTO
+========================================================= -->
+
+<section class="section contact" id="contacto">
+
+    <div class="container">
+
+        <div class="contact-grid">
+
+
+            <div class="contact-info reveal">
+
+                <span class="eyebrow">CONTACTO</span>
+
+                <h2>
+                    Vamos dar voz<br>
+                    <span>ao teu projeto.</span>
+                </h2>
+
+                <p>
+                    Se tens uma ideia, um projeto ou simplesmente queres
+                    saber mais sobre o nosso trabalho, entra em contacto.
+                </p>
+
+
+                <div class="contact-details">
+
+                    <a href="mailto:contacto@megadubs.pt"
+                       class="contact-detail">
+
+                        <span class="contact-icon">✉</span>
+
+                        <div>
+                            <small>Email</small>
+                            <strong>contacto@megadubs.pt</strong>
+                        </div>
+
+                    </a>
+
+
+                    <a href="#"
+                       class="contact-detail">
+
+                        <span class="contact-icon">💬</span>
+
+                        <div>
+                            <small>Discord</small>
+                            <strong>Comunidade MegaDubs</strong>
+                        </div>
+
+                    </a>
+
+
+                    <a href="#"
+                       class="contact-detail">
+
+                        <span class="contact-icon">▶</span>
+
+                        <div>
+                            <small>YouTube</small>
+                            <strong>MegaDubs</strong>
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-form-wrapper reveal">
+
+                <form id="contactForm" class="contact-form">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Nome
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="O teu nome"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="o-teu@email.com"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="subject">
+                            Assunto
+                        </label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="Como podemos ajudar?"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Mensagem
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Conta-nos um pouco sobre o teu projeto..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button type="submit"
+                            class="btn btn-primary form-submit">
+
+                        Enviar mensagem
+                        <span>→</span>
+
+                    </button>
+
+
+                    <p class="form-note">
+                        Ao enviar, o teu cliente de email será aberto
+                        com a mensagem preenchida.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+
+                <img src="assets/logo.png"
+                     alt="MegaDubs">
+
+                <p>
+                    Damos voz às histórias que merecem ser ouvidas.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <div>
+
+                    <h4>Navegação</h4>
+
+                    <a href="#inicio">Início</a>
+                    <a href="#sobre">Sobre nós</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#projetos">Projetos</a>
+
+                </div>
+
+
+                <div>
+
+                    <h4>Contacto</h4>
+
+                    <a href="#contacto">Fala connosco</a>
+                    <a href="#">Discord</a>
+                    <a href="#">YouTube</a>
+                    <a href="#">Instagram</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © <span id="currentYear"></span> MegaDubs.
+                Todos os direitos reservados.
+            </span>
+
+            <span>
+                Feito com ♥ em Portugal.
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================================================
+     BACK TO TOP
+========================================================= -->
+
+<button class="back-top" id="backTop" aria-label="Voltar ao topo">
+    ↑
+</button>
+
+
+<!-- =========================================================
+     TOAST
+========================================================= -->
+
+<div class="toast" id="toast">
+    <span>✓</span>
+    <p>Mensagem preparada!</p>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
